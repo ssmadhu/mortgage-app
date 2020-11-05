@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="666px" height="400px" viewBox="0 0 666 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>graph</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Final-design" transform="translate(-618.000000, -3410.000000)">
+            <g id="MONTHLY-PERFORMANCE" transform="translate(144.000000, 3173.000000)">
+                <g id="graph" transform="translate(452.000000, 237.000000)">
+                    <g id="Group-66">
+                        <g id="Group-63" transform="translate(116.448598, 0.000000)">
+                            <g id="Group-40" transform="translate(49.551402, 33.000000)">
+                                <path d="M7,24.9534884 L8,24.9534884 C9.1045695,24.9534884 10,25.8489189 10,26.9534884 L10,37 L10,37 L5,37 L5,26.9534884 C5,25.8489189 5.8954305,24.9534884 7,24.9534884 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3,0 C4.1045695,-2.02906125e-16 5,0.8954305 5,2 L5,37 L5,37 L0,37 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-33" transform="translate(401.551402, 33.000000)">
+                                <path d="M7,24.9534884 L8,24.9534884 C9.1045695,24.9534884 10,25.8489189 10,26.9534884 L10,37 L10,37 L5,37 L5,26.9534884 C5,25.8489189 5.8954305,24.9534884 7,24.9534884 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3,0 C4.1045695,-2.02906125e-16 5,0.8954305 5,2 L5,37 L5,37 L0,37 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-36" transform="translate(251.551402, 33.000000)">
+                                <path d="M7,24.9534884 L8,24.9534884 C9.1045695,24.9534884 10,25.8489189 10,26.9534884 L10,37 L10,37 L5,37 L5,26.9534884 C5,25.8489189 5.8954305,24.9534884 7,24.9534884 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3,0 C4.1045695,-2.02906125e-16 5,0.8954305 5,2 L5,37 L5,37 L0,37 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-38" transform="translate(150.551402, 18.000000)">
+                                <path d="M7,20.8 L8,20.8 C9.1045695,20.8 10,21.6954305 10,22.8 L10,52 L10,52 L5,52 L5,22.8 C5,21.6954305 5.8954305,20.8 7,20.8 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3,0 C4.1045695,-2.02906125e-16 5,0.8954305 5,2 L5,52 L5,52 L0,52 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-28" transform="translate(552.551402, 18.000000)">
+                                <path d="M7,20.8 L8,20.8 C9.1045695,20.8 10,21.6954305 10,22.8 L10,52 L10,52 L5,52 L5,22.8 C5,21.6954305 5.8954305,20.8 7,20.8 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3,0 C4.1045695,-2.02906125e-16 5,0.8954305 5,2 L5,52 L5,52 L0,52 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-34" transform="translate(352.551402, 18.000000)">
+                                <path d="M7,20.8 L8,20.8 C9.1045695,20.8 10,21.6954305 10,22.8 L10,52 L10,52 L5,52 L5,22.8 C5,21.6954305 5.8954305,20.8 7,20.8 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3,0 C4.1045695,-2.02906125e-16 5,0.8954305 5,2 L5,52 L5,52 L0,52 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-39" transform="translate(100.551402, 51.000000)">
+                                <path d="M7,6.04545455 L8,6.04545455 C9.1045695,6.04545455 10,6.94088505 10,8.04545455 L10,19 L10,19 L5,19 L5,8.04545455 C5,6.94088505 5.8954305,6.04545455 7,6.04545455 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3,0 C4.1045695,-2.02906125e-16 5,0.8954305 5,2 L5,19 L5,19 L0,19 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-31" transform="translate(502.551402, 51.000000)">
+                                <path d="M7,6.04545455 L8,6.04545455 C9.1045695,6.04545455 10,6.94088505 10,8.04545455 L10,19 L10,19 L5,19 L5,8.04545455 C5,6.94088505 5.8954305,6.04545455 7,6.04545455 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3,0 C4.1045695,-2.02906125e-16 5,0.8954305 5,2 L5,19 L5,19 L0,19 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-35" transform="translate(301.551402, 51.000000)">
+                                <path d="M7,6.04545455 L8,6.04545455 C9.1045695,6.04545455 10,6.94088505 10,8.04545455 L10,19 L10,19 L5,19 L5,8.04545455 C5,6.94088505 5.8954305,6.04545455 7,6.04545455 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3,0 C4.1045695,-2.02906125e-16 5,0.8954305 5,2 L5,19 L5,19 L0,19 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-41" transform="translate(0.551402, 0.000000)">
+                                <path d="M7,65.6790123 L8,65.6790123 C9.1045695,65.6790123 10,66.5744428 10,67.6790123 L10,70 L10,70 L5,70 L5,67.6790123 C5,66.5744428 5.8954305,65.6790123 7,65.6790123 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3,0 C4.1045695,-2.02906125e-16 5,0.8954305 5,2 L5,70 L5,70 L0,70 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-37" transform="translate(200.551402, 0.000000)">
+                                <path d="M7,65.6790123 L8,65.6790123 C9.1045695,65.6790123 10,66.5744428 10,67.6790123 L10,70 L10,70 L5,70 L5,67.6790123 C5,66.5744428 5.8954305,65.6790123 7,65.6790123 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3,0 C4.1045695,-2.02906125e-16 5,0.8954305 5,2 L5,70 L5,70 L0,70 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-32" transform="translate(451.551402, 0.000000)">
+                                <path d="M7,65.6790123 L8,65.6790123 C9.1045695,65.6790123 10,66.5744428 10,67.6790123 L10,70 L10,70 L5,70 L5,67.6790123 C5,66.5744428 5.8954305,65.6790123 7,65.6790123 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3,0 C4.1045695,-2.02906125e-16 5,0.8954305 5,2 L5,70 L5,70 L0,70 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                        </g>
+                        <text id="13%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="158.011869" y="124.127027">13%</tspan>
+                        </text>
+                        <text id="67%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="158.666075" y="103.197297">67%</tspan>
+                        </text>
+                        <text id="Feb" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="160.817575" y="167.294595">Feb</tspan>
+                        </text>
+                        <text id="13%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="509.974486" y="124.127027">13%</tspan>
+                        </text>
+                        <text id="67%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="510.628692" y="103.197297">67%</tspan>
+                        </text>
+                        <text id="Sep" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="512.474692" y="167.294595">Sep</tspan>
+                        </text>
+                        <text id="13%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="359.507196" y="124.127027">13%</tspan>
+                        </text>
+                        <text id="67%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="360.161402" y="103.197297">67%</tspan>
+                        </text>
+                        <text id="Jun" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="362.767902" y="167.294595">Jun</tspan>
+                        </text>
+                        <text id="50%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="258.759533" y="124.127027">50%</tspan>
+                        </text>
+                        <text id="89%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="259.413738" y="103.197297">89%</tspan>
+                        </text>
+                        <text id="Apr" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="261.708238" y="167.294595">Apr</tspan>
+                        </text>
+                        <text id="50%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="660.441776" y="124.127027">50%</tspan>
+                        </text>
+                        <text id="89%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="661.095981" y="103.197297">89%</tspan>
+                        </text>
+                        <text id="Dec" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="662.603981" y="167.294595">Dec</tspan>
+                        </text>
+                        <text id="50%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="460.25486" y="124.127027">50%</tspan>
+                        </text>
+                        <text id="89%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="460.909065" y="103.197297">89%</tspan>
+                        </text>
+                        <text id="Aug" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="461.786565" y="167.294595">Aug</tspan>
+                        </text>
+                        <text id="18%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="209.039907" y="124.127027">18%</tspan>
+                        </text>
+                        <text id="22%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="209.694112" y="103.197297">22%</tspan>
+                        </text>
+                        <text id="Mar" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="211.338612" y="167.294595">Mar</tspan>
+                        </text>
+                        <text id="18%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="610.72215" y="124.127027">18%</tspan>
+                        </text>
+                        <text id="22%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="611.376355" y="103.197297">22%</tspan>
+                        </text>
+                        <text id="Nov" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="612.507355" y="167.294595">Nov</tspan>
+                        </text>
+                        <text id="18%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="409.226822" y="124.127027">18%</tspan>
+                        </text>
+                        <text id="22%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="409.881028" y="103.197297">22%</tspan>
+                        </text>
+                        <text id="Jul" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="414.580528" y="167.294595">Jul</tspan>
+                        </text>
+                        <text id="1%-copy" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="112.159743" y="124.127027">1%</tspan>
+                        </text>
+                        <text id="180%-copy-2" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="105.078949" y="103.197297">180%</tspan>
+                        </text>
+                        <text id="Jan" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="111.851949" y="167.294595">Jan</tspan>
+                        </text>
+                        <text id="1%-copy" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="312.346659" y="124.127027">1%</tspan>
+                        </text>
+                        <text id="180%-copy-2" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="305.265864" y="103.197297">180%</tspan>
+                        </text>
+                        <text id="May" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="309.854864" y="167.294595">May</tspan>
+                        </text>
+                        <text id="1%-copy" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="563.561612" y="124.127027">1%</tspan>
+                        </text>
+                        <text id="180%-copy-2" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="556.480818" y="103.197297">180%</tspan>
+                        </text>
+                        <text id="Oct" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="562.870318" y="167.294595">Oct</tspan>
+                        </text>
+                        <text id="Portfolio" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="38.6879626" y="103.197297">Portfolio</tspan>
+                        </text>
+                        <text id="2018" fill="#41719F" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500">
+                            <tspan x="41.8691589" y="14">2018</tspan>
+                        </text>
+                        <text id="Benchmark" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="21.4629626" y="124.127027">Benchmark</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-65" transform="translate(0.000000, 228.000000)">
+                        <g id="Group-64" transform="translate(116.448598, 0.000000)">
+                            <g id="Group-40" transform="translate(49.719626, 32.826109)">
+                                <path d="M7.23364486,25.0515043 L8.46728972,25.0515043 C9.57185922,25.0515043 10.4672897,25.9469348 10.4672897,27.0515043 L10.4672897,37.145334 L10.4672897,37.145334 L5.23364486,37.145334 L5.23364486,27.0515043 C5.23364486,25.9469348 6.12907536,25.0515043 7.23364486,25.0515043 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3.23364486,0 C4.33821436,-2.02906125e-16 5.23364486,0.8954305 5.23364486,2 L5.23364486,37.145334 L5.23364486,37.145334 L0,37.145334 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-33" transform="translate(401.682243, 32.826109)">
+                                <path d="M7.23364486,25.0515043 L8.46728972,25.0515043 C9.57185922,25.0515043 10.4672897,25.9469348 10.4672897,27.0515043 L10.4672897,37.145334 L10.4672897,37.145334 L5.23364486,37.145334 L5.23364486,27.0515043 C5.23364486,25.9469348 6.12907536,25.0515043 7.23364486,25.0515043 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3.23364486,0 C4.33821436,-2.02906125e-16 5.23364486,0.8954305 5.23364486,2 L5.23364486,37.145334 L5.23364486,37.145334 L0,37.145334 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-36" transform="translate(251.214953, 32.826109)">
+                                <path d="M7.23364486,25.0515043 L8.46728972,25.0515043 C9.57185922,25.0515043 10.4672897,25.9469348 10.4672897,27.0515043 L10.4672897,37.145334 L10.4672897,37.145334 L5.23364486,37.145334 L5.23364486,27.0515043 C5.23364486,25.9469348 6.12907536,25.0515043 7.23364486,25.0515043 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3.23364486,0 C4.33821436,-2.02906125e-16 5.23364486,0.8954305 5.23364486,2 L5.23364486,37.145334 L5.23364486,37.145334 L0,37.145334 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-38" transform="translate(150.467290, 18.140745)">
+                                <path d="M7.23364486,20.7322794 L8.46728972,20.7322794 C9.57185922,20.7322794 10.4672897,21.6277099 10.4672897,22.7322794 L10.4672897,51.8306986 L10.4672897,51.8306986 L5.23364486,51.8306986 L5.23364486,22.7322794 C5.23364486,21.6277099 6.12907536,20.7322794 7.23364486,20.7322794 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3.23364486,0 C4.33821436,-6.46995335e-16 5.23364486,0.8954305 5.23364486,2 L5.23364486,51.8306986 L5.23364486,51.8306986 L0,51.8306986 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-28" transform="translate(552.149533, 18.140745)">
+                                <path d="M7.23364486,20.7322794 L8.46728972,20.7322794 C9.57185922,20.7322794 10.4672897,21.6277099 10.4672897,22.7322794 L10.4672897,51.8306986 L10.4672897,51.8306986 L5.23364486,51.8306986 L5.23364486,22.7322794 C5.23364486,21.6277099 6.12907536,20.7322794 7.23364486,20.7322794 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3.23364486,0 C4.33821436,-6.46995335e-16 5.23364486,0.8954305 5.23364486,2 L5.23364486,51.8306986 L5.23364486,51.8306986 L0,51.8306986 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-34" transform="translate(351.962617, 18.140745)">
+                                <path d="M7.23364486,20.7322794 L8.46728972,20.7322794 C9.57185922,20.7322794 10.4672897,21.6277099 10.4672897,22.7322794 L10.4672897,51.8306986 L10.4672897,51.8306986 L5.23364486,51.8306986 L5.23364486,22.7322794 C5.23364486,21.6277099 6.12907536,20.7322794 7.23364486,20.7322794 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3.23364486,0 C4.33821436,-2.02906125e-16 5.23364486,0.8954305 5.23364486,2 L5.23364486,51.8306986 L5.23364486,51.8306986 L0,51.8306986 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-39" transform="translate(100.747664, 50.966854)">
+                                <path d="M7.23364486,6.04691484 L8.46728972,6.04691484 C9.57185922,6.04691484 10.4672897,6.94234534 10.4672897,8.04691484 L10.4672897,19.0045895 L10.4672897,19.0045895 L5.23364486,19.0045895 L5.23364486,8.04691484 C5.23364486,6.94234534 6.12907536,6.04691484 7.23364486,6.04691484 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3.23364486,0 C4.33821436,-2.02906125e-16 5.23364486,0.8954305 5.23364486,2 L5.23364486,19.0045895 L5.23364486,19.0045895 L0,19.0045895 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-31" transform="translate(502.429907, 50.966854)">
+                                <path d="M7.23364486,6.04691484 L8.46728972,6.04691484 C9.57185922,6.04691484 10.4672897,6.94234534 10.4672897,8.04691484 L10.4672897,19.0045895 L10.4672897,19.0045895 L5.23364486,19.0045895 L5.23364486,8.04691484 C5.23364486,6.94234534 6.12907536,6.04691484 7.23364486,6.04691484 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3.23364486,0 C4.33821436,-2.02906125e-16 5.23364486,0.8954305 5.23364486,2 L5.23364486,19.0045895 L5.23364486,19.0045895 L0,19.0045895 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-35" transform="translate(300.934579, 50.966854)">
+                                <path d="M7.23364486,6.04691484 L8.46728972,6.04691484 C9.57185922,6.04691484 10.4672897,6.94234534 10.4672897,8.04691484 L10.4672897,19.0045895 L10.4672897,19.0045895 L5.23364486,19.0045895 L5.23364486,8.04691484 C5.23364486,6.94234534 6.12907536,6.04691484 7.23364486,6.04691484 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3.23364486,0 C4.33821436,-2.02906125e-16 5.23364486,0.8954305 5.23364486,2 L5.23364486,19.0045895 L5.23364486,19.0045895 L0,19.0045895 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-41" transform="translate(-0.000000, 0.000000)">
+                                <path d="M7.23364486,65.6522183 L8.46728972,65.6522183 C9.57185922,65.6522183 10.4672897,66.5476488 10.4672897,67.6522183 L10.4672897,69.9714431 L10.4672897,69.9714431 L5.23364486,69.9714431 L5.23364486,67.6522183 C5.23364486,66.5476488 6.12907536,65.6522183 7.23364486,65.6522183 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3.23364486,0 C4.33821436,-2.02906125e-16 5.23364486,0.8954305 5.23364486,2 L5.23364486,69.9714431 L5.23364486,69.9714431 L0,69.9714431 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-37" transform="translate(200.186916, 0.000000)">
+                                <path d="M7.23364486,65.6522183 L8.46728972,65.6522183 C9.57185922,65.6522183 10.4672897,66.5476488 10.4672897,67.6522183 L10.4672897,69.9714431 L10.4672897,69.9714431 L5.23364486,69.9714431 L5.23364486,67.6522183 C5.23364486,66.5476488 6.12907536,65.6522183 7.23364486,65.6522183 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3.23364486,0 C4.33821436,-2.02906125e-16 5.23364486,0.8954305 5.23364486,2 L5.23364486,69.9714431 L5.23364486,69.9714431 L0,69.9714431 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                            <g id="Group-32" transform="translate(451.401869, 0.000000)">
+                                <path d="M7.23364486,65.6522183 L8.46728972,65.6522183 C9.57185922,65.6522183 10.4672897,66.5476488 10.4672897,67.6522183 L10.4672897,69.9714431 L10.4672897,69.9714431 L5.23364486,69.9714431 L5.23364486,67.6522183 C5.23364486,66.5476488 6.12907536,65.6522183 7.23364486,65.6522183 Z" id="Rectangle-Copy-19" fill="#8ECCFD"></path>
+                                <path d="M2,0 L3.23364486,0 C4.33821436,-2.02906125e-16 5.23364486,0.8954305 5.23364486,2 L5.23364486,69.9714431 L5.23364486,69.9714431 L0,69.9714431 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy-20" fill="#F38E86"></path>
+                            </g>
+                        </g>
+                        <text id="13%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="158.011869" y="124.127027">13%</tspan>
+                        </text>
+                        <text id="67%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="158.666075" y="103.197297">67%</tspan>
+                        </text>
+                        <text id="Feb" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="160.817575" y="167.294595">Feb</tspan>
+                        </text>
+                        <text id="13%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="509.974486" y="124.127027">13%</tspan>
+                        </text>
+                        <text id="67%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="510.628692" y="103.197297">67%</tspan>
+                        </text>
+                        <text id="Sep" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="512.474692" y="167.294595">Sep</tspan>
+                        </text>
+                        <text id="13%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="359.507196" y="124.127027">13%</tspan>
+                        </text>
+                        <text id="67%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="360.161402" y="103.197297">67%</tspan>
+                        </text>
+                        <text id="Jun" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="362.767902" y="167.294595">Jun</tspan>
+                        </text>
+                        <text id="50%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="258.759533" y="124.127027">50%</tspan>
+                        </text>
+                        <text id="89%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="259.413738" y="103.197297">89%</tspan>
+                        </text>
+                        <text id="Apr" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="261.708238" y="167.294595">Apr</tspan>
+                        </text>
+                        <text id="50%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="660.441776" y="124.127027">50%</tspan>
+                        </text>
+                        <text id="89%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="661.095981" y="103.197297">89%</tspan>
+                        </text>
+                        <text id="Dec" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="662.603981" y="167.294595">Dec</tspan>
+                        </text>
+                        <text id="50%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="460.25486" y="124.127027">50%</tspan>
+                        </text>
+                        <text id="89%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="460.909065" y="103.197297">89%</tspan>
+                        </text>
+                        <text id="Aug" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="461.786565" y="167.294595">Aug</tspan>
+                        </text>
+                        <text id="18%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="209.039907" y="124.127027">18%</tspan>
+                        </text>
+                        <text id="22%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="209.694112" y="103.197297">22%</tspan>
+                        </text>
+                        <text id="Mar" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="211.338612" y="167.294595">Mar</tspan>
+                        </text>
+                        <text id="18%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="610.72215" y="124.127027">18%</tspan>
+                        </text>
+                        <text id="22%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="611.376355" y="103.197297">22%</tspan>
+                        </text>
+                        <text id="Nov" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="612.507355" y="167.294595">Nov</tspan>
+                        </text>
+                        <text id="18%" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="409.226822" y="124.127027">18%</tspan>
+                        </text>
+                        <text id="22%" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="409.881028" y="103.197297">22%</tspan>
+                        </text>
+                        <text id="Jul" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="414.580528" y="167.294595">Jul</tspan>
+                        </text>
+                        <text id="1%-copy" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="112.159743" y="124.127027">1%</tspan>
+                        </text>
+                        <text id="180%-copy-2" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="105.078949" y="103.197297">180%</tspan>
+                        </text>
+                        <text id="Jan" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="111.851949" y="167.294595">Jan</tspan>
+                        </text>
+                        <text id="1%-copy" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="312.346659" y="124.127027">1%</tspan>
+                        </text>
+                        <text id="180%-copy-2" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="305.265864" y="103.197297">180%</tspan>
+                        </text>
+                        <text id="May" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="309.854864" y="167.294595">May</tspan>
+                        </text>
+                        <text id="1%-copy" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="563.561612" y="124.127027">1%</tspan>
+                        </text>
+                        <text id="180%-copy-2" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="556.480818" y="103.197297">180%</tspan>
+                        </text>
+                        <text id="Oct" fill="#41719F" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="562.870318" y="167.294595">Oct</tspan>
+                        </text>
+                        <text id="Portfolio" fill="#F38E86" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="38.6879626" y="103.197297">Portfolio</tspan>
+                        </text>
+                        <text id="2019" fill="#41719F" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500">
+                            <tspan x="41.8691589" y="14">2019</tspan>
+                        </text>
+                        <text id="Benchmark" fill="#8ECCFD" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400">
+                            <tspan x="21.4629626" y="124.127027">Benchmark</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

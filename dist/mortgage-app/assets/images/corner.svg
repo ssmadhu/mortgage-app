@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="441px" height="532px" viewBox="0 0 441 532" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>corner</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M127.85868,119.501299 L734.828425,119.822669 C739.243394,119.825007 742.821849,123.403461 742.824188,127.81843 L743.145554,734.494465 C743.147895,738.912742 739.568071,742.496361 735.149793,742.498701 C735.146969,742.498703 735.144144,742.498703 735.14132,742.498701 L128.171575,742.177331 C123.756606,742.174993 120.178151,738.596539 120.175812,734.18157 L119.854446,127.505535 C119.852105,123.087258 123.431929,119.503639 127.850207,119.501299 C127.853031,119.501297 127.855856,119.501297 127.85868,119.501299 Z" id="path-1"></path>
+        <radialGradient cx="30.8022814%" cy="20.38177%" fx="30.8022814%" fy="20.38177%" r="56.983779%" gradientTransform="translate(0.308023,0.203818),scale(0.998997,1.000000),rotate(41.911536),scale(1.000000,0.710067),translate(-0.308023,-0.203818)" id="radialGradient-3">
+            <stop stop-color="#F38E86" offset="0%"></stop>
+            <stop stop-color="#FEE0D4" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Final-design" transform="translate(-999.000000, 0.000000)">
+            <g id="HERO" transform="translate(25.000000, -327.000000)">
+                <g id="background-items">
+                    <g id="corner" transform="translate(971.000000, 0.000000)">
+                        <g id="Group-6" transform="translate(0.000000, 0.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#FCF8EF" transform="translate(431.500000, 431.000000) rotate(-33.000000) translate(-431.500000, -431.000000) " xlink:href="#path-1"></use>
+                            <path d="M-223.433601,251.241691 L343.172837,251.405842 C347.589303,251.411761 351.169237,254.991694 351.175157,259.40816 L351.339304,825.429903 C351.345221,829.84818 347.764538,833.43094 343.34626,833.432221 C343.344714,833.432222 343.343169,833.432222 343.341624,833.427585 L-223.264814,833.263434 C-227.681279,833.257515 -231.261214,829.677582 -231.267133,825.261116 L-231.43128,259.239373 C-231.437198,254.821096 -227.856515,251.238336 -223.438237,251.237055 C-223.436691,251.237054 -223.435145,251.237054 -223.433601,251.241691 Z" id="Rectangle-Copy-10" fill="url(#radialGradient-3)" opacity="0.117164249" mask="url(#mask-2)" transform="translate(59.954012, 542.334638) rotate(-15.000000) translate(-59.954012, -542.334638) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
