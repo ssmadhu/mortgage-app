@@ -15,6 +15,7 @@ import { ZipcodeValidatorDirective } from './directives/zipcode-validator/zipcod
 import { CurrencyFormatterDirective } from './directives/currency-formatter/currency-formatter.directive';
 import { CommonModule, DecimalPipe } from '@angular/common';
 import { DownpaymentCalcComponent } from './components/downpayment-calc/downpayment-calc.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +35,8 @@ import { DownpaymentCalcComponent } from './components/downpayment-calc/downpaym
     HttpClientModule,
     CommonModule
   ],
-  providers: [DecimalPipe, {
+  providers: [DecimalPipe,
+    {provide: LocationStrategy, useClass: HashLocationStrategy}, {
     provide: 'mortgageAPI', useFactory: (): IMortgageService => {
       return {
         url: 'https://thirdparty.mortech-inc.com/mpg/servlet/mpgThirdPartyServlet',
