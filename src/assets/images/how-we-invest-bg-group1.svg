@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="990px" height="760px" viewBox="0 0 990 760" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>background items</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M127.85868,119.501299 L734.828425,119.822669 C739.243394,119.825007 742.821849,123.403461 742.824188,127.81843 L743.145554,734.494465 C743.147895,738.912742 739.568071,742.496361 735.149793,742.498701 C735.146969,742.498703 735.144144,742.498703 735.14132,742.498701 L128.171575,742.177331 C123.756606,742.174993 120.178151,738.596539 120.175812,734.18157 L119.854446,127.505535 C119.852105,123.087258 123.431929,119.503639 127.850207,119.501299 C127.853031,119.501297 127.855856,119.501297 127.85868,119.501299 Z" id="path-1"></path>
+        <radialGradient cx="76.2730683%" cy="48.0351422%" fx="76.2730683%" fy="48.0351422%" r="88.2379983%" gradientTransform="translate(0.762731,0.480351),scale(0.998997,1.000000),rotate(39.801833),scale(1.000000,0.710067),translate(-0.762731,-0.480351)" id="radialGradient-3">
+            <stop stop-color="#F38E86" offset="0%"></stop>
+            <stop stop-color="#FEE0D4" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Final-design" transform="translate(0.000000, -2341.000000)">
+            <g id="HOW-WE-INVEST" transform="translate(-455.000000, 2238.000000)">
+                <g id="background-items">
+                    <path d="M539,559 C539,562.855072 536.07971,566 532.5,566 C528.92029,566 526,562.855072 526,559 C526,555.144928 528.92029,552 532.5,552 C536.07971,552 539,555.144928 539,559 Z" id="Path" fill="#FEE0D4" fill-rule="nonzero"></path>
+                    <circle id="Oval-Copy-244" stroke="#B8DEFC" stroke-width="3" cx="715.5" cy="286.5" r="7.5"></circle>
+                    <circle id="Oval-Copy-247" stroke="#FEE0D4" stroke-width="3" cx="1083.5" cy="263.5" r="7.5"></circle>
+                    <circle id="Oval-Copy-234" stroke="#B8DEFC" stroke-width="3" cx="958.5" cy="233.5" r="11.5"></circle>
+                    <polygon id="Triangle-Copy-16" fill="#FEE0D4" transform="translate(762.246324, 215.246324) rotate(123.000000) translate(-762.246324, -215.246324) " points="762.246324 201 776.492647 229.492647 748 229.492647"></polygon>
+                    <rect id="Rectangle-Copy-18" fill="#FEE0D4" transform="translate(570.620987, 341.773831) rotate(-24.000000) translate(-570.620987, -341.773831) " x="558.120987" y="329.273831" width="25" height="25"></rect>
+                    <polygon id="Triangle-Copy-18" fill="#FEE0D4" transform="translate(1304.127417, 203.500000) rotate(123.000000) translate(-1304.127417, -203.500000) " points="1304.12742 191 1316.62742 216 1291.62742 216"></polygon>
+                    <polygon id="Triangle-Copy-19" fill="#FEE0D4" transform="translate(1049.500000, 276.500000) rotate(123.000000) translate(-1049.500000, -276.500000) " points="1049.5 264 1062 289 1037 289"></polygon>
+                    <rect id="Rectangle-Copy-17" stroke="#B8DEFC" stroke-width="3" transform="translate(1418.127417, 196.500000) rotate(-45.000000) translate(-1418.127417, -196.500000) " x="1407.12742" y="185.5" width="22" height="22"></rect>
+                    <circle id="Oval-Copy-243" stroke="#B8DEFC" stroke-width="3" cx="1436.5" cy="132.5" r="6.5"></circle>
+                    <path d="M1333,173 C1334.17965,170.413498 1335.54766,168.780036 1337.10404,168.099613 C1339.4386,167.078978 1341,168.458418 1343.9714,167.146265 C1345.95233,166.271496 1347.2952,164.556075 1348,162" id="Path-2-Copy-5" stroke="#B8DEFC" stroke-width="3"></path>
+                    <path d="M857,233 C858.17965,230.413498 859.547663,228.780036 861.104038,228.099613 C863.438601,227.078978 865,228.458418 867.971399,227.146265 C869.952329,226.271496 871.295196,224.556075 872,222" id="Path-2-Copy-6" stroke="#FEE0D4" stroke-width="3" transform="translate(864.500000, 227.500000) rotate(84.000000) translate(-864.500000, -227.500000) "></path>
+                    <g id="Rectangle-Copy-10-+-Rectangle-Copy-16-Mask-Copy" transform="translate(506.500000, 506.000000) rotate(11.000000) translate(-506.500000, -506.000000) translate(75.000000, 75.000000)">
+                        <g id="Group-6" transform="translate(0.000000, 0.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#FCF8EF" transform="translate(431.500000, 431.000000) rotate(-33.000000) translate(-431.500000, -431.000000) " xlink:href="#path-1"></use>
+                            <path d="M636.336714,222.716741 L1089.79929,222.585368 C1094.21757,222.579452 1097.80033,226.160136 1097.80161,230.578414 C1097.80161,230.57996 1097.80161,230.581506 1097.79697,230.58305 L1097.66561,683.574484 C1097.65969,687.99095 1094.07975,691.570883 1089.66329,691.576802 L636.200707,691.708174 C631.78243,691.71409 628.199671,688.133406 628.198391,683.715128 C628.19839,683.713582 628.19839,683.712037 628.203027,683.710492 L628.334395,230.719058 C628.340315,226.302592 631.920249,222.722659 636.336714,222.716741 Z" id="Rectangle-Copy-16" fill="url(#radialGradient-3)" opacity="0.117164249" mask="url(#mask-2)" transform="translate(863.000000, 457.146771) rotate(15.000000) translate(-863.000000, -457.146771) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

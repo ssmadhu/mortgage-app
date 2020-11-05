@@ -1,0 +1,1424 @@
+.header {
+  background-color: transparent;
+}
+
+.navbar {
+  padding-top: 24px;
+  background-color: transparent;
+  padding-bottom:32px;
+}
+
+.home-page {
+  font-family: 'Avenir next LT', sans-serif;
+  color: #41719f;
+  font-weight: 400;
+}
+
+.heading {
+  font-size: 54px;
+  line-height: 58px;
+  font-weight: 400;
+}
+
+.heading.hero-heading {
+  width: 140%;
+  margin-top: 0px;
+}
+
+.heading.how-it-works-heading {
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.heading.we-send-you-the-target-holdings-heading {
+  margin-top: 0px;
+  text-align: left;
+}
+
+.heading.how-we-invest-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+.heading.how-we-invest-heading-copy {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+.heading.how-we-invest-heading-copy.how-we-invest-proof-block-heading {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.heading.white {
+  color: #fff;
+}
+
+.heading.our-team-heading {
+  margin-top: 0px;
+  text-align: right;
+}
+
+.menu-item {
+  color: #41719f;
+}
+
+.menu-item.subscribe {
+  color: #f38e86;
+  font-weight: 500;
+}
+
+.hero {
+  margin-top: 110px;
+}
+
+.paragraph {
+  max-width: 640px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.paragraph.how-it-works-icon-text {
+  max-width: 140px;
+  margin-bottom: 0px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.paragraph.how-it-works-paragraph {
+  text-align: justify;
+}
+
+.paragraph.we-send-you-the-target-holdings-paragraph {
+  text-align: left;
+}
+
+.paragraph.how-we-invest-paragraph {
+  margin: 20px 0px 0px;
+  text-align: right;
+}
+
+.how-it-works {
+  position: relative;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.image-3 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -5;
+  width: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.corner-bg-image {
+  position: absolute;
+  top: -500px;
+  right: -100px;
+  z-index: -100;
+  width: 60%;
+}
+
+.image-4 {
+  position: absolute;
+  left: 220px;
+  top: 220px;
+}
+
+.hero-bg-dots-rounded {
+  position: absolute;
+  left: 220px;
+  top: 220px;
+  width: 25%;
+}
+
+.rectangle.hero {
+  position: absolute;
+  left: 220px;
+  top: 140px;
+  z-index: -1;
+}
+
+.triangle.hero {
+  position: absolute;
+  left: 489px;
+  top: 300px;
+  z-index: -1;
+}
+
+.circle {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.circle.hero {
+  position: absolute;
+  left: 140px;
+  top: 220px;
+  z-index: -10;
+}
+
+.how-it-works-icon {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.how-it-works-icons {
+  margin-top: 50px;
+}
+
+.we-send-you-the-target-holdings {
+  position: relative;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.how-it-works-ite {
+  z-index: 1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.how-it-works-ite:hover {
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #41719f;
+  background-image: linear-gradient(138deg, #fee0d4, #fcf8ef);
+}
+
+.image-5 {
+  position: absolute;
+  top: 44px;
+  right: -25px;
+  z-index: -1;
+  display: block;
+  width: 100%;
+  opacity: 0;
+}
+
+.how-it-works-item {
+  z-index: 1;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-radius: 5px;
+}
+
+.how-it-works-item:hover {
+  background-image: linear-gradient(145deg, #fcf8ef, #fdebe0);
+  box-shadow: 1px 1px 23px 0 rgba(0, 0, 0, 0.08);
+}
+
+.how-it-works-item.gradient:hover {
+  box-shadow: 0 1px 23px 0 rgba(0, 0, 0, 0.08);
+}
+
+.how-it-works-item.item-shadow {
+  box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.08);
+}
+
+.how-it-works-item.item-shadow {
+  box-shadow: none;
+}
+
+.how-it-works-item.item-shadow:hover {
+  box-shadow: 1px 1px 23px 0 rgba(0, 0, 0, 0.08);
+}
+
+.button {
+  margin-top: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 20px;
+  background-color: #41719f;
+  box-shadow: 1px 6px 8px -2px #8eccfd;
+  font-weight: 500;
+}
+
+.button.we-send-you-the-target-holdings-cta-button {
+  margin-top: 0px;
+  text-align: left;
+}
+
+.button.main-cta-button {
+  display: block;
+  margin-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #fff;
+  box-shadow: none;
+  color: #f38e86;
+  font-weight: 400;
+  text-align: center;
+}
+
+.image-6.mobile {
+  display: none;
+}
+
+.first-cta-section {
+  margin-top: 200px;
+  position: relative;
+}
+
+.h4 {
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+}
+
+.first-cta-paragraph.paragraph {
+  font-style: italic;
+}
+
+.italic-text {
+  color: #a6bdd3;
+}
+
+.first-cta-subscription-text {
+  position: relative;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-style: normal;
+}
+
+.column {
+  text-align: right;
+}
+
+.column.first-cta-column {
+  z-index: 1;
+}
+
+.div-block {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.columns {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 60px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.how-we-invest {
+  position: relative;
+  margin-top: 200px;
+}
+
+.how-we-invest-subheading {
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.how-we-invest-subheading.subheading.how-we-invest-proof-subheading {
+  position: relative;
+  z-index: 1;
+  font-weight: 500;
+  text-align: center;
+}
+
+.how-we-invest-subheading.subheading.how-we-invest-proof-paragraph {
+  position: relative;
+  z-index: 1;
+  font-weight: 400;
+  text-align: center;
+}
+
+.column-2 {
+  display: block;
+}
+
+.how-we-invest-icon {
+  display: block;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.how-we-invest-icon-text {
+  margin-top: 30px;
+  color: #f38e86;
+  font-weight: 500;
+  text-align: center;
+}
+
+.how-we-invest-icon-text.how-we-invest-second-icon-text {
+  margin-top: 20px;
+}
+
+.block {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f38e86;
+}
+
+.block.item-shadow {
+  position: relative;
+  border-radius: 5px;
+  background-image: linear-gradient(145deg, #fcf8ef, #fdebe0);
+  box-shadow: 1px 1px 23px 0 rgba(0, 0, 0, 0.08);
+}
+
+.block.item-shadow:hover {
+  background-image: linear-gradient(145deg, #41719f, #41719f);
+  color: #fff;
+}
+
+.monthly-performance {
+  position: relative;
+  margin-top: 200px;
+}
+
+.proof2 {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 100px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-areas: "Area";
+  -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.how-we-invest-proof-subheading {
+  font-weight: 500;
+}
+
+.image-8 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+}
+
+.columns-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.paragraph-2 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.reviews {
+  margin-top: 200px;
+}
+
+.main-cta {
+  position: relative;
+  overflow: hidden;
+  margin-top: 200px;
+  background-color: #f38e86;
+}
+
+.review-body-text {
+  text-align: justify;
+}
+
+.reviewer-name {
+  font-weight: 500;
+  text-align: right;
+}
+
+.slide {
+  background-color: transparent;
+}
+
+.mask {
+  height: auto;
+  background-color: transparent;
+}
+
+.slide-nav {
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-right: 0px;
+  background-color: transparent;
+  color: #41719f;
+}
+
+.slider {
+  position: relative;
+  height: auto;
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: transparent;
+}
+
+.right-arrow {
+  right: -100px;
+  height: auto;
+  max-height: 100px;
+}
+
+.left-arrow {
+  left: -100px;
+  top: 0%;
+  right: auto;
+  bottom: 0%;
+  max-height: 100px;
+}
+
+.icon-2 {
+  color: #41719f;
+}
+
+.icon-3 {
+  color: #41719f;
+}
+
+.div-block-2 {
+  background-color: #f38e86;
+}
+
+.div-block-2.main-cta-div {
+  padding: 40px;
+}
+
+.main-cta-paragraph.white {
+  color: #fff;
+}
+
+.section {
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 0px 0px;
+  background-size: 125px;
+}
+
+.white {
+  color: #fff;
+}
+
+.bold-text-2 {
+  font-weight: 500;
+  text-align: center;
+}
+
+.columns-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.our-team {
+  position: relative;
+  margin-top: 200px;
+}
+
+.container-3 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.paragraph-3 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+.image-block {
+  overflow: hidden;
+  min-height: 300px;
+}
+
+.image-10 {
+  min-height: 300px;
+}
+
+.footer {
+  position: relative;
+  overflow: hidden;
+  margin-top: 200px;
+  background-color: #b8defc;
+}
+
+.container-5 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.image-11 {
+  margin-top: 100px;
+}
+
+.success-message {
+  background-color: transparent;
+}
+
+.text-field {
+  border: 1px none #000;
+  border-radius: 20px;
+  background-color: #cae6fc;
+  opacity: 1;
+  font-family: 'Avenir next LT', sans-serif;
+  color: #41719f;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.text-field::-webkit-input-placeholder {
+  color: #41719f;
+  text-align: left;
+  text-indent: 10px;
+}
+
+.text-field:-ms-input-placeholder {
+  color: #41719f;
+  text-align: left;
+  text-indent: 10px;
+}
+
+.text-field::-ms-input-placeholder {
+  color: #41719f;
+  text-align: left;
+  text-indent: 10px;
+}
+
+.text-field::placeholder {
+  color: #41719f;
+  text-align: left;
+  text-indent: 10px;
+}
+
+.form-block {
+  position: relative;
+  max-width: 330px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.submit-button {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  background-color: transparent;
+  color: #41719f;
+  font-weight: 500;
+}
+
+.footer-form-text {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.footer-social-icons {
+  margin-top: 50px;
+}
+
+.footer-social-icon {
+  padding-right: 25px;
+}
+
+.footer-social-icon.last {
+  padding-right: 0px;
+}
+
+.paragraph-4 {
+  margin-top: 50px;
+}
+
+.footer-paragraph {
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+.columns-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image-12 {
+  position: absolute;
+  left: 10%;
+  top: auto;
+  right: auto;
+  bottom: 29%;
+  z-index: -1;
+}
+
+.image-13 {
+  position: absolute;
+  left: 0%;
+  top: -13%;
+  right: 0%;
+  bottom: auto;
+  z-index: -1;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.image-14 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: -1;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.column-3 {
+  text-align: left;
+}
+
+.image-15 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 0;
+}
+
+.image-16 {
+  position: absolute;
+  left: 0%;
+  top: -10%;
+  right: 0%;
+  bottom: auto;
+  z-index: -1;
+}
+
+.image-17 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: -1;
+}
+
+.image-18 {
+  position: absolute;
+  left: 0%;
+  top: -54%;
+  right: auto;
+  bottom: 0%;
+}
+
+.container-6 {
+  position: relative;
+}
+
+.image-19 {
+  position: absolute;
+}
+
+.big-cta-bg-group1 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  z-index: 0;
+}
+
+.column-4 {
+  z-index: 1;
+}
+
+.column-5 {
+  z-index: 1;
+}
+
+.image-20 {
+  position: absolute;
+  left: 0%;
+  top: -59%;
+  right: auto;
+  bottom: auto;
+  z-index: -1;
+}
+
+.image-21 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 0;
+}
+
+.image-22 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+}
+
+.how-we-invest-proof-hover-bg-item {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+}
+
+.image-24 {
+  position: absolute;
+}
+
+.proof-hover-icon {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 0;
+  opacity: 0.1;
+}
+
+.image-26 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+
+.image-27 {
+  background-image: url('../../../assets/images/dots-rounded.svg');
+  background-position: 0px 0px;
+  background-size: auto;
+}
+
+.columns-5 {
+  overflow: visible;
+  width: auto;
+  min-width: 1%;
+  float: none;
+  clear: left;
+}
+
+.column-6 {
+  border-radius: 0px;
+  background-image: url('../../../assets/images/dots-rounded.svg');
+  background-position: 100% 0%;
+  background-size: 91px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 991px) {
+  .heading.hero-heading {
+    margin-top: 0px;
+  }
+
+  .corner-bg-image {
+    top: -100px;
+    right: 0px;
+  }
+
+  .image-4 {
+    left: 140px;
+  }
+
+  .hero-bg-dots-rounded {
+    left: 140px;
+  }
+
+  .triangle.hero {
+    left: 197px;
+    z-index: -1;
+  }
+
+  .button.we-send-you-the-target-holdings-cta-button {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .image-6 {
+    margin-top: 100px;
+  }
+
+  .image-6.mobile {
+    display: none;
+  }
+
+  .how-we-invest-subheading.subheading.how-we-invest-proof-subheading {
+    font-weight: 500;
+  }
+
+  .bold-text {
+    font-weight: 500;
+  }
+
+  .how-we-invest-proof-subheading {
+    font-weight: 500;
+  }
+
+  .slider {
+    max-width: 560px;
+  }
+
+  .image-block {
+    min-height: 400px;
+    text-align: center;
+  }
+
+  .image-10 {
+    max-width: none;
+    min-height: 100%;
+    text-align: center;
+  }
+
+  .footer {
+    padding-bottom: 100px;
+  }
+
+  .columns-4 {
+    display: block;
+  }
+
+  .big-cta-bg-group1 {
+    bottom: -52%;
+  }
+
+  .image-21 {
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .heading.how-we-invest-heading {
+    text-align: center;
+  }
+
+  .heading.how-we-invest-heading-copy {
+    text-align: center;
+  }
+
+  .heading.our-team-heading {
+    text-align: center;
+  }
+
+  .logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    text-align: center;
+  }
+
+  .header-menu {
+    background-color: #fff;
+    text-align: left;
+  }
+
+  .menu-button {
+    display: block;
+    width: 115px;
+    height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+
+  .menu-button.w--open {
+    background-color: transparent;
+  }
+
+  .icon {
+    margin-top: 2px;
+  }
+
+  .image {
+    width: auto;
+    height: auto;
+  }
+
+  .menu-item {
+    display: block;
+    color: #41719f;
+    text-align: center;
+  }
+
+  .hero {
+    margin-top: 50px;
+  }
+
+  .paragraph {
+    max-width: 320px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .paragraph.how-we-invest-paragraph {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .container {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .text-block {
+    display: inline-block;
+    padding-right: 10px;
+    color: #41719f;
+    font-size: 12px;
+    line-height: 9px;
+    font-weight: 500;
+  }
+
+  .image-2 {
+    margin-top: 50px;
+  }
+
+  .hero-graph {
+    margin-top: 50px;
+  }
+
+  .how-it-works {
+    margin-top: 100px;
+  }
+
+  .corner-bg-image {
+    top: 0px;
+    right: 0px;
+  }
+
+  .image-4 {
+    left: 220px;
+    top: 280px;
+  }
+
+  .we-send-you-the-target-holdings {
+    margin-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .button {
+    display: block;
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+
+  .button {
+    .we-send-you-the-target-holdings-cta-button {
+      margin-top: 30px;
+      text-align: center;
+    }
+  }
+
+
+  .image-6.mobile {
+    display: block;
+    margin-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .image-6.desktop {
+    display: none;
+  }
+
+  .container-2 {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .first-cta-section {
+    margin-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .columns {
+    display: block;
+  }
+
+  .how-we-invest {
+    margin-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .how-we-invest-subheading.subheading {
+    text-align: center;
+  }
+
+  .image-7 {
+    margin-bottom: 50px;
+  }
+
+  .monthly-performance {
+    margin-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .proof2 {
+    display: block;
+  }
+
+  .columns-2 {
+    display: block;
+  }
+
+  .paragraph-2 {
+    text-align: center;
+  }
+
+  .image-9 {
+    margin-top: 50px;
+  }
+
+  .reviews {
+    margin-top: 100px;
+  }
+
+  .main-cta {
+    margin-top: 100px;
+  }
+
+  .slider {
+    max-width: 360px;
+  }
+
+  .white {
+    text-align: center;
+  }
+
+  .columns-3 {
+    display: block;
+  }
+
+  .our-team {
+    margin-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .paragraph-3 {
+    text-align: center;
+  }
+
+  .image-block {
+    min-height: auto;
+  }
+
+  .image-10 {
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    margin-top: 100px;
+  }
+
+  .image-15 {
+    left: auto;
+    top: -25%;
+    right: -21%;
+    bottom: 0%;
+  }
+
+  .big-cta-bg-group1 {
+    bottom: 43%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heading {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .hero-graph {
+    display: block;
+  }
+
+  .corner-bg-image {
+    top: 0px;
+    right: 0px;
+    display: block;
+    width: 100%;
+  }
+
+  .image-4 {
+    left: 105px;
+    top: 290px;
+  }
+
+  .triangle.hero {
+    display: block;
+  }
+
+  .we-send-you-the-target-holdings {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .button.hero-cta-button {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .button.we-send-you-the-target-holdings-cta-button {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .image-6.desktop {
+    display: none;
+  }
+
+  .first-cta-section {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .columns {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .how-we-invest {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .monthly-performance {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .reviews {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .right-arrow {
+    right: 0px;
+    opacity: 0;
+  }
+
+  .right-arrow:hover {
+    opacity: 1;
+  }
+
+  .left-arrow {
+    left: 0px;
+    opacity: 0;
+  }
+
+  .left-arrow:hover {
+    opacity: 1;
+  }
+
+  .our-team {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .container-3 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .container-4 {
+    overflow: visible;
+  }
+
+  .container-5 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .image-15 {
+    z-index: 0;
+  }
+
+  .first-cta-column {
+    z-index: 1;
+  }
+
+  .big-cta-bg-group1 {
+    right: -49%;
+  }
+}
+
+.w-button {
+  display: inline-block;
+  padding: 9px 50px;
+  background-color: #41719f;
+  color: white;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.w-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+}
+.w-container:before,
+.w-container:after {
+  content: " ";
+  display: table;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
+}
+.w-container:after {
+  clear: both;
+}
+.w-container .w-row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.w-row:before,
+.w-row:after {
+  content: " ";
+  display: table;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
+}
+.w-row:after {
+  clear: both;
+}
+.w-row .w-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.w-col {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.w-col .w-col {
+  padding-left: 0;
+  padding-right: 0;
+}
+.w-col-1 {
+  width: 8.33333333%;
+}
+.w-col-2 {
+  width: 16.66666667%;
+}
+.w-col-3 {
+  width: 25%;
+}
+.w-col-4 {
+  width: 33.33333333%;
+}
+.w-col-5 {
+  width: 41.66666667%;
+}
+.w-col-6 {
+  width: 50%;
+}
+.w-col-7 {
+  width: 58.33333333%;
+}
+.w-col-8 {
+  width: 66.66666667%;
+}
+.w-col-9 {
+  width: 75%;
+}
+.w-col-10 {
+  width: 83.33333333%;
+}
+.w-col-11 {
+  width: 91.66666667%;
+}
+.w-col-12 {
+  width: 100%;
+}

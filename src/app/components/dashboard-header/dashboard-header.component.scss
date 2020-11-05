@@ -1,0 +1,42 @@
+.dashboard-toolbar {
+  padding: 24px 12px;
+  background-color: #4e626b;
+  color: #fff;
+  box-shadow: 0 -4px 3px rgba(21, 21, 21, 0.1);
+  width: 100%;
+  font-size: 14px;
+  &__title {
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 24px;
+  }
+  &__actions {
+    padding-bottom: 12px;
+  }
+}
+.search_form {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  mat-form-field {
+    width: 120px;
+  }
+  .mat-input-invalid .mat-input-placeholder {
+    color: blue;
+  }
+
+  .mat-input-invalid .mat-input-ripple {
+    background-color: blue;
+  }
+  .search-button {
+    background-color: #6a797f;
+  }
+}
+
+.search_results {
+  table {
+    width: calc(100% - 24px);
+    margin: 24px 12px;
+  }
+}

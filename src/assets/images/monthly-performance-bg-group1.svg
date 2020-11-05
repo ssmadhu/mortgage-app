@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="366px" height="606px" viewBox="0 0 366 606" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>background items</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M103.406843,96.0483752 L583.284607,96.3675742 C587.698727,96.3705104 591.276346,99.9481278 591.279284,104.362248 L591.598477,583.946302 C591.601417,588.364579 588.02208,591.948684 583.603803,591.951625 C583.600254,591.951627 583.596706,591.951627 583.593157,591.951625 L103.715393,591.632426 C99.3012728,591.62949 95.7236539,588.051872 95.7207161,583.637752 L95.4015233,104.053698 C95.3985827,99.6354209 98.97792,96.0513158 103.396197,96.0483752 C103.399746,96.0483728 103.403294,96.0483728 103.406843,96.0483752 Z" id="path-1"></path>
+        <radialGradient cx="30.8022814%" cy="20.38177%" fx="30.8022814%" fy="20.38177%" r="56.9918988%" gradientTransform="translate(0.308023,0.203818),scale(0.998740,1.000000),rotate(41.904209),scale(1.000000,0.710067),translate(-0.308023,-0.203818)" id="radialGradient-3">
+            <stop stop-color="#F38E86" offset="0%"></stop>
+            <stop stop-color="#FEE0D4" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Final-design" transform="translate(-1074.000000, -3291.000000)">
+            <g id="MONTHLY-PERFORMANCE" transform="translate(144.000000, 3173.000000)">
+                <g id="background-items" transform="translate(847.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-21" fill="#FEE0D4" transform="translate(455.500000, 299.500000) rotate(145.000000) translate(-455.500000, -299.500000) " x="431" y="275" width="49" height="49"></rect>
+                    <polygon id="Triangle-Copy-23" fill="#FEE0D4" transform="translate(428.500000, 419.500000) rotate(-68.000000) translate(-428.500000, -419.500000) " points="428.5 407 441 432 416 432"></polygon>
+                    <rect id="Rectangle-Copy-23" stroke="#B8DEFC" stroke-width="3" transform="translate(449.500000, 160.500000) rotate(124.000000) translate(-449.500000, -160.500000) " x="438.5" y="149.5" width="22" height="22"></rect>
+                    <g id="Group-6" transform="translate(403.500000, 404.000000) rotate(11.000000) translate(-403.500000, -404.000000) translate(60.000000, 60.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#FCF8EF" transform="translate(343.500000, 344.000000) rotate(-33.000000) translate(-343.500000, -344.000000) " xlink:href="#path-1"></use>
+                        <path d="M-176.247691,200.923302 L271.532916,201.086266 C275.948916,201.093702 279.528392,204.673177 279.53583,209.089177 L279.698787,656.285089 C279.706221,660.703365 276.125805,664.286392 271.707527,664.288002 C271.705585,664.288002 271.703643,664.288002 271.701702,664.282177 L-176.078904,664.119213 C-180.494904,664.111778 -184.074381,660.532303 -184.081819,656.116303 L-184.244775,208.92039 C-184.25221,204.502115 -180.671793,200.919088 -176.253515,200.917478 C-176.251573,200.917477 -176.249631,200.917477 -176.247691,200.923302 Z" id="Rectangle-Copy-10" fill="url(#radialGradient-3)" opacity="0.117164249" mask="url(#mask-2)" transform="translate(47.727006, 432.602740) rotate(-15.000000) translate(-47.727006, -432.602740) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

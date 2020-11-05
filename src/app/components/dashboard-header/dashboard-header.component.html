@@ -1,0 +1,98 @@
+<mat-toolbar class="dashboard-toolbar">
+  <mat-toolbar-row class="dashboard-toolbar__title">
+    <span>Current mortgage and refinance rates</span>
+  </mat-toolbar-row>
+  <mat-toolbar-row class="dashboard-toolbar__actions">
+    <form [formGroup]="searchForm" class="search_form">
+      <mat-form-field>
+        <mat-label>Mortgage Type</mat-label>
+        <mat-select formControlName="mortgageType">
+          <mat-option value="purchase">Purchase</mat-option>
+          <mat-option value="refinance">Refinance</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Zip code</mat-label>
+        <input matInput placeholder="" formControlName="zipCode">
+        <mat-error *ngIf="searchForm.controls.zipCode.hasError('required')">
+          Enter zip code
+        </mat-error>
+        <mat-error *ngIf="searchForm.controls.zipCode.hasError('pattern')">
+          Not a  valid zip code
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Purchase price</mat-label>
+        <span matPrefix>$ &nbsp;</span>
+        <input matInput placeholder="" formControlName="purchasePrice" appCurrencyFormatter>
+      </mat-form-field>
+      <app-downpayment-calc></app-downpayment-calc>
+      <!-- <mat-form-field>
+        <mat-label>Down Payment</mat-label>
+        <input matInput placeholder="" formControlName="downPayment" appCurrencyFormatter>
+      </mat-form-field> -->
+      <mat-form-field>
+        <mat-label>Credit score</mat-label>
+        <mat-select formControlName="creditScore">
+          <mat-option value="740+">740+</mat-option>
+          <mat-option value="720-739">720-739</mat-option>
+          <mat-option value="700-719">700-719</mat-option>
+          <mat-option value="680-699">680-699</mat-option>
+          <mat-option value="660-679">660-679</mat-option>
+          <mat-option value="620-639">620-639</mat-option>
+          <mat-option value="580-619">580-619</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Loan term</mat-label>
+        <mat-select formControlName="loanTerm">
+          <mat-option value="30">30 years</mat-option>
+          <mat-option value="20">20 years</mat-option>
+          <mat-option value="15">15 years</mat-option>
+          <mat-option value="10">10 years</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Property Type</mat-label>
+        <mat-select formControlName="propertyType">
+          <mat-option value="singleFamily">Single-family home</mat-option>
+          <mat-option value="condominium">Condominium</mat-option>
+          <mat-option value="townhome">Townhome</mat-option>
+          <mat-option value="duplex">Duplex</mat-option>
+          <mat-option value="triplex">Triplex</mat-option>
+          <mat-option value="quad">Quad</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <button mat-mini-fab class="search-button" (click)=onSearch()>
+        <mat-icon>search</mat-icon>
+      </button>
+    </form>
+  </mat-toolbar-row>
+</mat-toolbar>
+<div class="content">
+  <div class="search_results" *ngIf="resultSet.length">
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+      <ng-container matColumnDef="vendor">
+        <th mat-header-cell *matHeaderCellDef> Vendor </th>
+        <td mat-cell *matCellDef="let element"> {{element.vendor}} </td>
+      </ng-container>
+      <ng-container matColumnDef="rate">
+        <th mat-header-cell *matHeaderCellDef> Rate </th>
+        <td mat-cell *matCellDef="let element"> {{element.rate}} </td>
+      </ng-container>
+      <ng-container matColumnDef="monthlyPayment">
+        <th mat-header-cell *matHeaderCellDef> Monthly Payment </th>
+        <td mat-cell *matCellDef="let element"> {{element.monthlyPayment}} </td>
+      </ng-container>
+      <ng-container matColumnDef="upFrontCost">
+        <th mat-header-cell *matHeaderCellDef> Up Front Cost </th>
+        <td mat-cell *matCellDef="let element"> {{element.upFrontCost}} </td>
+      </ng-container>
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  </div>
+  <div class="no_results" *ngIf="!resultSet.length">
+    No Results!
+  </div>
+</div>
