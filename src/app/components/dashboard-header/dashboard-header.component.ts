@@ -23,15 +23,20 @@ export class DashboardHeaderComponent implements OnInit {
       mortgageType: new FormControl('purchase', Validators.required),
       zipCode: new FormControl('33323', [Validators.required, Validators.pattern(zipcodeRegex)]),
       purchasePrice: new FormControl('500000'),
+      propertyValue: new FormControl('500000'),
+      loanAmount: new FormControl('4000'),
       downPayment: new FormControl('1000'),
       creditScore: new FormControl('740+'),
       loanTerm: new FormControl('30'),
-      propertyType: new FormControl('singleFamily')
+      propertyType: new FormControl('singleFamily'),
+      monthlyIncome: new FormControl('6000'),
+      debt: new FormControl('1500')
     });
   }
   onSearch(): void {
     const params = {
-      loanAmount: this.searchForm.controls.purchasePrice.value
+      loanAmount: this.searchForm.controls.purchasePrice.value,
+      downPayment: this.searchForm.controls.downPayment.value
     };
     this.mortgageService.getMortgageDetails(params).subscribe(result => {
       this.resultSet = result.mortech.results;

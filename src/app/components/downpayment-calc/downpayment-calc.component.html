@@ -1,7 +1,7 @@
 <mat-form-field>
   <mat-label>Down Payment</mat-label>
-  <input matInput placeholder=""  appCurrencyFormatter>
+  <input matInput placeholder=""  appCurrencyFormatter [formControl]="downpaymentControl">
 </mat-form-field>
 <mat-form-field>
-  <input matInput placeholder="" >
+  <input matInput placeholder="" [formControl]="downpaymentRateControl">
 </mat-form-field>

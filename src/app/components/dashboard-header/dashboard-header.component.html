@@ -1,4 +1,4 @@
-<mat-toolbar class="dashboard-toolbar">
+<mat-toolbar class="dashboard-toolbar" color="primary">
   <mat-toolbar-row class="dashboard-toolbar__title">
     <span>Current mortgage and refinance rates</span>
   </mat-toolbar-row>
@@ -21,16 +21,21 @@
           Not a  valid zip code
         </mat-error>
       </mat-form-field>
-      <mat-form-field>
+      <mat-form-field *ngIf="searchForm.controls.mortgageType.value==='purchase'">
         <mat-label>Purchase price</mat-label>
         <span matPrefix>$ &nbsp;</span>
         <input matInput placeholder="" formControlName="purchasePrice" appCurrencyFormatter>
       </mat-form-field>
-      <app-downpayment-calc></app-downpayment-calc>
-      <!-- <mat-form-field>
+      <mat-form-field *ngIf="searchForm.controls.mortgageType.value==='refinance'">
+        <mat-label>Property Value</mat-label>
+        <span matPrefix>$ &nbsp;</span>
+        <input matInput placeholder="" formControlName="propertyValue" appCurrencyFormatter>
+      </mat-form-field>
+      <!-- <app-downpayment-calc [cost]="searchForm.controls.purchasePrice.value"></app-downpayment-calc> -->
+      <mat-form-field *ngIf="searchForm.controls.mortgageType.value==='purchase'">
         <mat-label>Down Payment</mat-label>
         <input matInput placeholder="" formControlName="downPayment" appCurrencyFormatter>
-      </mat-form-field> -->
+      </mat-form-field>
       <mat-form-field>
         <mat-label>Credit score</mat-label>
         <mat-select formControlName="creditScore">
@@ -52,7 +57,7 @@
           <mat-option value="10">10 years</mat-option>
         </mat-select>
       </mat-form-field>
-      <mat-form-field>
+      <mat-form-field *ngIf="searchForm.controls.mortgageType.value==='purchase'">
         <mat-label>Property Type</mat-label>
         <mat-select formControlName="propertyType">
           <mat-option value="singleFamily">Single-family home</mat-option>
@@ -62,6 +67,16 @@
           <mat-option value="triplex">Triplex</mat-option>
           <mat-option value="quad">Quad</mat-option>
         </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Monthly Income</mat-label>
+        <span matPrefix>$ &nbsp;</span>
+        <input matInput placeholder="" formControlName="monthlyIncome" appCurrencyFormatter>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Debt</mat-label>
+        <span matPrefix>$ &nbsp;</span>
+        <input matInput placeholder="" formControlName="debt" appCurrencyFormatter>
       </mat-form-field>
       <button mat-mini-fab class="search-button" (click)=onSearch()>
         <mat-icon>search</mat-icon>

@@ -21,6 +21,7 @@ export class MortgageService {
         {...this.mortgageApi.params,
           loanProduct1: '30 year fixed' ,
           loan_amount: values.loanAmount,
+          pmi: values.downPayment,
           showAllLockPeriods: '1'
         }
       }).pipe(

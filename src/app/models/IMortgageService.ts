@@ -12,4 +12,5 @@ export interface IMortgageService {
 export interface IMortgageDetails {
   loanAmount: string;
   loanPeriod?: string;
+  downPayment?: string;
 }
