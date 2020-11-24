@@ -1,10 +1,80 @@
-<mat-toolbar class="dashboard-toolbar" color="primary">
+<mat-toolbar class="dashboard-toolbar">
   <mat-toolbar-row class="dashboard-toolbar__title">
     <span>Current mortgage and refinance rates</span>
   </mat-toolbar-row>
   <mat-toolbar-row class="dashboard-toolbar__actions">
     <form [formGroup]="searchForm" class="search_form">
-      <mat-form-field>
+      <div class="form-group">
+        <label for="mortgageType">Mortgage Type</label>
+        <select class="form-control" id="mortgageType" formControlName="mortgageType">
+          <option value="purchase">Purchase</option>
+          <option value="refinance">Refinance</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="zipCode">Zip code</label>
+        <input class="form-control" [ngClass]="{'is-invalid': searchForm.controls.zipCode.errors}" id="zipCode" formControlName="zipCode">
+        <div *ngIf="searchForm.controls.zipCode.hasError('required')" class="invalid-feedback">
+          Enter zip code
+        </div>
+        <div *ngIf="searchForm.controls.zipCode.hasError('pattern')" class="invalid-feedback">
+          Not a valid zip code
+        </div>
+      </div>
+      <div class="form-group" *ngIf="searchForm.controls.mortgageType.value==='refinance'">
+        <label for="propertyValue">Property Value</label>
+        <input class="form-control" id="propertyValue" formControlName="propertyValue" appCurrencyFormatter>
+      </div>
+      <div class="form-group" *ngIf="searchForm.controls.mortgageType.value==='purchase'">
+        <label for="purchasePrice">Purchase price</label>
+        <input class="form-control" id="purchasePrice" formControlName="purchasePrice" appCurrencyFormatter>
+      </div>
+      <!-- <app-downpayment-calc [cost]="searchForm.controls.purchasePrice.value"></app-downpayment-calc> -->
+      <div class="form-group">
+        <label for="creditScore">Credit score</label>
+        <select class="form-control" id="creditScore" formControlName="creditScore">
+          <option value="740+">740+</option>
+          <option value="720-739">720-739</option>
+          <option value="700-719">700-719</option>
+          <option value="680-699">680-699</option>
+          <option value="660-679">660-679</option>
+          <option value="620-639">620-639</option>
+          <option value="580-619">580-619</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="loanTerm">Loan term</label>
+        <select class="form-control" id="loanTerm" formControlName="loanTerm">
+          <option value="30">30 years</option>
+          <option value="20">20 years</option>
+          <option value="15">15 years</option>
+          <option value="10">10 years</option>
+        </select>
+      </div>
+      <div class="form-group" *ngIf="searchForm.controls.mortgageType.value==='purchase'">
+        <label for="propertyType">Property Type</label>
+        <select class="form-control" id="propertyType" formControlName="propertyType">
+          <option value="singleFamily">Single-family home</option>
+          <option value="condominium">Condominium</option>
+          <option value="townhome">Townhome</option>
+          <option value="10">10 years</option>
+          <option value="duplex">Duplex</option>
+          <option value="triplex">Triplex</option>
+          <option value="quad">Quad</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="monthlyIncome">Monthly Income</label>
+        <input class="form-control" id="monthlyIncome" formControlName="monthlyIncome" appCurrencyFormatter>
+      </div>
+      <div class="form-group">
+        <label for="debt">Debt</label>
+        <input class="form-control" id="debt" formControlName="debt" appCurrencyFormatter>
+      </div>
+      <button mat-mini-fab color="primary" class="search-button" (click)=onSearch()>
+        <mat-icon>search</mat-icon>
+      </button>
+      <!-- <mat-form-field>
         <mat-label>Mortgage Type</mat-label>
         <mat-select formControlName="mortgageType">
           <mat-option value="purchase">Purchase</mat-option>
@@ -13,7 +83,7 @@
       </mat-form-field>
       <mat-form-field>
         <mat-label>Zip code</mat-label>
-        <input matInput placeholder="" formControlName="zipCode">
+        <input class="form-control" matInput placeholder="" formControlName="zipCode">
         <mat-error *ngIf="searchForm.controls.zipCode.hasError('required')">
           Enter zip code
         </mat-error>
@@ -31,7 +101,6 @@
         <span matPrefix>$ &nbsp;</span>
         <input matInput placeholder="" formControlName="propertyValue" appCurrencyFormatter>
       </mat-form-field>
-      <!-- <app-downpayment-calc [cost]="searchForm.controls.purchasePrice.value"></app-downpayment-calc> -->
       <mat-form-field *ngIf="searchForm.controls.mortgageType.value==='purchase'">
         <mat-label>Down Payment</mat-label>
         <input matInput placeholder="" formControlName="downPayment" appCurrencyFormatter>
@@ -77,10 +146,10 @@
         <mat-label>Debt</mat-label>
         <span matPrefix>$ &nbsp;</span>
         <input matInput placeholder="" formControlName="debt" appCurrencyFormatter>
-      </mat-form-field>
-      <button mat-mini-fab class="search-button" (click)=onSearch()>
+      </mat-form-field> -->
+      <!-- <button mat-mini-fab class="search-button" (click)=onSearch()>
         <mat-icon>search</mat-icon>
-      </button>
+      </button> -->
     </form>
   </mat-toolbar-row>
 </mat-toolbar>
@@ -107,7 +176,7 @@
       <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
     </table>
   </div>
-  <div class="no_results" *ngIf="!resultSet.length">
+  <!-- <div class="no_results" *ngIf="!resultSet.length">
     No Results!
-  </div>
+  </div> -->
 </div>

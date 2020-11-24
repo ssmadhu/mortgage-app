@@ -3,29 +3,29 @@
   margin-top: 12px;
   border-radius: 12px;
   padding: 16px 12px;
-  color: #fff;
   box-shadow: 0 -4px 3px rgba(21, 21, 21, 0.1);
   width: calc(100% - 36px);
   font-size: 14px;
+  height: auto;
+
   &__title {
     justify-content: center;
     font-size: 24px;
     padding-bottom: 32px;
   }
   &__actions {
-    padding-bottom: 12px;
+    // padding-bottom: 12px;
+    height: calc(100% - 48px);
   }
 }
 .search_form {
   width: 100%;
   justify-content: space-around;
   display: flex;
+  color: #5a6169;
   flex-wrap: wrap;
   mat-form-field {
     width: 180px;
-  }
-  .search-button {
-    background-color: rgba(55,207,194,0.8);
   }
 }
 
@@ -33,5 +33,6 @@
   table {
     width: calc(100% - 24px);
     margin: 24px 12px;
+    height: 100%;
   }
 }
