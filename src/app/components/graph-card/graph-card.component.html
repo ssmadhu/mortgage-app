@@ -1,0 +1,19 @@
+<div @flyInOut class="card shadow p-3 mb-5 bg-white rounded h-100">
+  <div class="card-header">
+    {{title}}
+  </div>
+  <div class="card-body">
+    <div class="chart">
+      <canvas baseChart
+        [datasets]="barChartData"
+        [labels]="barChartLabels"
+        [options]="barChartOptions"
+        [plugins]="barChartPlugins"
+        [legend]="barChartLegend"
+        [chartType]="barChartType"
+        >
+      </canvas>
+    </div>
+
+  </div>
+</div>

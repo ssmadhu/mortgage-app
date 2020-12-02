@@ -3,6 +3,44 @@
   <mat-icon>menu</mat-icon>
   <div>Your Home, Your Way</div>
 </mat-toolbar> -->
-<app-dashboard-header></app-dashboard-header>
+<div class="dashboard">
+  <div class="dashboard_header">
+    <app-dashboard-header  (setValues)="setValues($event)" (search)="onSearch($event)"></app-dashboard-header>
+  </div>
+  <div class="content container-fluid">
+    <div class="row py-4"  *ngIf="resultSet.length">
+      <div class="col search_results">
+        <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+          <ng-container matColumnDef="vendor">
+            <th mat-header-cell *matHeaderCellDef> Vendor </th>
+            <td mat-cell *matCellDef="let element"> {{element.vendor}} </td>
+          </ng-container>
+          <ng-container matColumnDef="rate">
+            <th mat-header-cell *matHeaderCellDef> Rate </th>
+            <td mat-cell *matCellDef="let element"> {{element.rate}} </td>
+          </ng-container>
+          <ng-container matColumnDef="monthlyPayment">
+            <th mat-header-cell *matHeaderCellDef> Monthly Payment </th>
+            <td mat-cell *matCellDef="let element"> {{element.monthlyPayment}} </td>
+          </ng-container>
+          <ng-container matColumnDef="upFrontCost">
+            <th mat-header-cell *matHeaderCellDef> Up Front Cost </th>
+            <td mat-cell *matCellDef="let element"> {{element.upFrontCost}} </td>
+          </ng-container>
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+      </div>
+    </div>
+    <div class="row py-2 px-1">
+      <div class="col h-100">
+        <app-location-card #locationCard></app-location-card>
+      </div>
+      <div class="col h-100">
+        <app-graph-card [title]="'Income Vs Debt'"></app-graph-card>
+      </div>
+    </div>
+  </div>
+</div>
 
 

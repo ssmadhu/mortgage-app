@@ -1,12 +1,10 @@
 .dashboard-toolbar {
   margin: auto;
-  margin-top: 12px;
   border-radius: 12px;
   padding: 16px 12px;
-  box-shadow: 0 -4px 3px rgba(21, 21, 21, 0.1);
+  box-shadow: 0 2px 8px 5px rgba(21, 21, 21, 0.1);
   width: calc(100% - 36px);
   font-size: 14px;
-  height: auto;
 
   &__title {
     justify-content: center;
@@ -29,10 +27,3 @@
   }
 }
 
-.search_results {
-  table {
-    width: calc(100% - 24px);
-    margin: 24px 12px;
-    height: 100%;
-  }
-}

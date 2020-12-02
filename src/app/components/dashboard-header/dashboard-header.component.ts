@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { trigger, state, style, transition, animate } from '@angular/animations';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, FormGroupDirective, NgForm, Validators } from '@angular/forms';
 import { ErrorStateMatcher } from '@angular/material/core';
 import { zipcodeRegex } from 'src/app/models/RegexPatterns';
@@ -7,16 +8,27 @@ import { MortgageService } from '../../services/mortgage/mortgage.service';
 @Component({
   selector: 'app-dashboard-header',
   templateUrl: './dashboard-header.component.html',
-  styleUrls: ['./dashboard-header.component.scss']
+  styleUrls: ['./dashboard-header.component.scss'],
+  animations: [
+    trigger('flyInOut', [
+      state('in', style({ transform: 'translateY(0)' })),
+      transition('void => *', [
+        style({ transform: 'translateY(-100%)' }),
+        animate(500)
+      ]),
+      transition('* => void', [
+        animate(500, style({ transform: 'translateY(100%)' }))
+      ])
+    ])
+  ]
 })
 export class DashboardHeaderComponent implements OnInit {
 
   public searchForm: FormGroup;
-  public resultSet = [];
-  public dataSource;
-  public displayedColumns: string[] = ['vendor', 'rate', 'monthlyPayment', 'upFrontCost'];
-  constructor(private mortgageService: MortgageService) {
-   }
+  @Output() search = new EventEmitter<FormGroup>();
+  @Output() setValues = new EventEmitter<{ zipCode?: number, debt?: number, income?: number }>();
+  constructor() {
+  }
 
   ngOnInit(): void {
     this.searchForm = new FormGroup({
@@ -32,23 +44,18 @@ export class DashboardHeaderComponent implements OnInit {
       monthlyIncome: new FormControl('6000'),
       debt: new FormControl('1500')
     });
+    this.emitValues();
   }
   onSearch(): void {
-    const params = {
-      loanAmount: this.searchForm.controls.purchasePrice.value,
-      downPayment: this.searchForm.controls.downPayment.value
-    };
-    this.mortgageService.getMortgageDetails(params).subscribe(result => {
-      this.resultSet = result.mortech.results;
-      console.log(this.resultSet);
-      this.dataSource = this.resultSet.map(x => {
-        return {
-          vendor: x?.quote?.vendor_product_name,
-          rate: x?.quote?.quote_detail?.apr30,
-          monthlyPayment: x?.quote?.quote_detail?.piti,
-          upFrontCost: x?.quote?.quote_detail?.downPayment
-        };
-      });
+    this.search.emit(this.searchForm);
+    this.emitValues();
+  }
+
+  emitValues(): void {
+    this.setValues.emit({
+      zipCode: this.searchForm.controls.zipCode.value,
+      income: this.searchForm.controls.monthlyIncome.value,
+      debt: this.searchForm.controls.debt.value
     });
   }
 }

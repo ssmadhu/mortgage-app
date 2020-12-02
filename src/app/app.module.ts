@@ -16,6 +16,9 @@ import { CurrencyFormatterDirective } from './directives/currency-formatter/curr
 import { CommonModule, DecimalPipe } from '@angular/common';
 import { DownpaymentCalcComponent } from './components/downpayment-calc/downpayment-calc.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { LocationCardComponent } from './components/location-card/location-card.component';
+import { GraphCardComponent } from './components/graph-card/graph-card.component';
+import { ChartsModule } from 'ng2-charts';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +27,9 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     DashboardHeaderComponent,
     ZipcodeValidatorDirective,
     CurrencyFormatterDirective,
-    DownpaymentCalcComponent
+    DownpaymentCalcComponent,
+    LocationCardComponent,
+    GraphCardComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +38,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     MaterialModule,
     ReactiveFormsModule,
     HttpClientModule,
-    CommonModule
+    CommonModule,
+    ChartsModule
   ],
   providers: [DecimalPipe,
     {provide: LocationStrategy, useClass: HashLocationStrategy}, {

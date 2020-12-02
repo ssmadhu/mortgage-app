@@ -1,0 +1,14 @@
+.dashboard {
+  background-color: #f5f6f8;
+  height: auto;
+}
+.dashboard_header {
+  padding: 12px 0;
+}
+.search_results {
+  table {
+    width: calc(100% - 24px);
+    margin: 0 12px;
+    height: 100%;
+  }
+}
