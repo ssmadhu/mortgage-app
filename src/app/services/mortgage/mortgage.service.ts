@@ -5,12 +5,16 @@ import { IMortgageDetails, IMortgageService } from '../../models/IMortgageServic
 import { switchMap } from 'rxjs/operators';
 import { Parser } from 'xml2js';
 import { ZipCode, lookup } from 'zipcodes';
+import { RatesResponse } from 'src/app/models/RatesResponse';
 @Injectable({
   providedIn: 'root'
 })
 export class MortgageService {
 
-  constructor(public http: HttpClient, @Inject('mortgageAPI') public mortgageApi: IMortgageService) {
+  constructor(
+    public http: HttpClient,
+    @Inject('mortgageAPI') public mortgageApi: IMortgageService,
+    @Inject('zillowAPI') public zillowApi: { url: string, partnerId: string }) {
     console.log(mortgageApi);
   }
 
@@ -37,5 +41,21 @@ export class MortgageService {
   async parseXmlToJson(xml): Promise<any> {
     return await new Parser({ explicitArray: false, mergeAttrs: true }).parseStringPromise(xml)
       .then(response => response);
+  }
+
+  public getRatesZillow(loanType: string = 'Conventional'): Observable<RatesResponse> {
+    return this.http
+      .get<RatesResponse>
+      (`${this.zillowApi.url}/getRates`, {
+        params: {
+          partnerId: this.zillowApi.partnerId,
+          includeCurrentRate: 'true',
+          'queries.1.loanType': loanType,
+          durationDays: '365',
+          'queries.1.creditScoreBucket': 'High',
+          aggregation: 'Daily'
+        }
+      }
+      );
   }
 }

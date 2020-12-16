@@ -1,0 +1,19 @@
+<!-- <div class="card shadow p-3 mb-5 bg-white rounded h-100" *ngIf="loaded">
+  <div class="card-header">
+    Rate Card
+  </div> -->
+  <!-- <div class="card-body"> -->
+    <div class="chart" *ngIf="loaded">
+      <canvas baseChart
+        [datasets]="lineChartData"
+        [labels]="lineChartLabels"
+        [options]="lineChartOptions"
+        [chartType]="lineChartType"
+        [legend]="lineChartLegend"
+        [colors]="lineChartColors"
+        >
+      </canvas>
+    </div>
+<!--
+  </div>
+</div> -->

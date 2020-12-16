@@ -19,6 +19,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { LocationCardComponent } from './components/location-card/location-card.component';
 import { GraphCardComponent } from './components/graph-card/graph-card.component';
 import { ChartsModule } from 'ng2-charts';
+import { RateCardComponent } from './components/rate-card/rate-card.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,8 @@ import { ChartsModule } from 'ng2-charts';
     CurrencyFormatterDirective,
     DownpaymentCalcComponent,
     LocationCardComponent,
-    GraphCardComponent
+    GraphCardComponent,
+    RateCardComponent
   ],
   imports: [
     BrowserModule,
@@ -55,6 +57,8 @@ import { ChartsModule } from 'ng2-charts';
         }
       };
     }
+  }, {
+      provide: 'zillowAPI', useValue: { url: `https://mortgageapi.zillow.com`, partnerId: 'RD-CRGGRHN'}
   }],
   bootstrap: [AppComponent]
 })
